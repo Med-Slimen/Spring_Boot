@@ -25,10 +25,6 @@ public class Departement {
 	@OneToMany(mappedBy="departement")
 	private List<Projet> projets;
 	
-	public Departement() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 	public Long getIdDepart() {
 		return idDepart;
 	}
